@@ -1,0 +1,5 @@
+post_install() {
+  echo "Note: /usr/bin/ must be added to open_basedir (if enabled) in php.ini"
+}
+
+# vim:set ts=2 sw=2 et:

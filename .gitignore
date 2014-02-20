@@ -1,0 +1,6 @@
+LICENSE
+*.gz
+*.xz
+*.phar
+/src/
+/pkg/
