@@ -8,6 +8,7 @@ url="http://phpunit.de"
 arch=('x86_64' 'i686')
 license=('custom')
 depends=('php')
+install='phpunit.install'
 source=("https://github.com/sebastianbergmann/phpunit/releases/download/${pkgver}/phpunit.phar"
         "https://raw2.github.com/sebastianbergmann/phpunit/${pkgver}/LICENSE")
 md5sums=('dc347faabf7602fe048bd8838e77e31d'
