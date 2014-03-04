@@ -2,7 +2,7 @@
 
 pkgname=phpunit
 pkgver=3.7.32
-pkgrel=3
+pkgrel=4
 pkgdesc="PHPUnit is a programmer-oriented testing framework for PHP."
 url="http://phpunit.de"
 arch=('x86_64' 'i686')
