@@ -14,10 +14,10 @@ source=("https://phar.phpunit.de/phpunit-${pkgver}.phar"
 md5sums=('ef78210ed146f95914f6a94aa3b67a12'
          '01b410a927527be5ab60ccdcf75477a0')
 package() {
-  install -D -m 644 ${srcdir}/LICENSE ${pkgdir}/usr/share/licenses/${pkgname}/license.txt
-  install -D -m 755 ${srcdir}/phpunit-${pkgver}.phar ${pkgdir}/usr/share/webapps/bin/phpunit.phar
-  install -d ${pkgdir}/usr/bin
-  ln -s /usr/share/webapps/bin/phpunit.phar ${pkgdir}/usr/bin/phpunit
+  install -D -m 644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/license.txt"
+  install -D -m 755 "${srcdir}/phpunit-${pkgver}.phar" "${pkgdir}/usr/share/webapps/bin/phpunit.phar"
+  install -d "${pkgdir}/usr/bin"
+  ln -s /usr/share/webapps/bin/phpunit.phar "${pkgdir}/usr/bin/phpunit"
 }
 
 # vim:set ts=2 sw=2 et:
