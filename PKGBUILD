@@ -1,7 +1,7 @@
 # Maintainer: Attila Bukor <r1pp3rj4ck [at] w4it [dot] eu>
 
 pkgname=phpunit
-pkgver=4.0.0
+pkgver=4.0.1
 pkgrel=1
 pkgdesc="PHPUnit is a programmer-oriented testing framework for PHP."
 url="http://phpunit.de"
@@ -12,7 +12,7 @@ install='phpunit.install'
 source=("https://phar.phpunit.de/phpunit-${pkgver}.phar"
         "https://raw2.github.com/sebastianbergmann/phpunit/${pkgver}/LICENSE"
         'phpunit.install')
-md5sums=('2ab58a236b840ed6ccf350a7d52aa54b'
+md5sums=('2a570235fe75454ae325a542c38446a2'
          '01b410a927527be5ab60ccdcf75477a0'
          'b46c539c898e61924892913eb7099201')
 
